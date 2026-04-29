@@ -9,4 +9,4 @@ SELECT column1, column2 .. FROM  tablename
 -- Example :-
 SELECT * FROM users
 
-SELECT email, name FROM users
+SELECT email,name name FROM users

@@ -5,6 +5,8 @@ CREATE TABLE tablename (
     column_name datatype constraints
 )
 
+RENAME TABLE currentName TO newName
+
 -- Example :-
 
 CREATE TABLE users (
@@ -15,3 +17,5 @@ CREATE TABLE users (
     date_of_birth DATE,
     create_at TIMESTAMP DEFAULT  CURRENT_TIMESTAMP
 )
+
+RENAME TABLE users TO customers

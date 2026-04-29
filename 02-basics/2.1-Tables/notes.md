@@ -8,6 +8,8 @@ CREATE TABLE tablename (
     column_name datatype constraints,
     ...
 );
+
+RENAME TABLE currentName TO newName;
 ```
 
 ## Example
@@ -21,6 +23,8 @@ CREATE TABLE users (
     date_of_birth DATE,
     created_at   TIMESTAMP     DEFAULT CURRENT_TIMESTAMP
 );
+
+RENAME TABLE users TO customers;
 ```
 
 ---
@@ -42,6 +46,12 @@ Identifies a **specific attribute** (field) you want to store in the table.
 
 ```
 id, name, email, date_of_birth
+```
+### `RENAME TABLE`
+Renames an existing table without affecting its data.
+
+```sql
+RENAME TABLE users TO customers;
 ```
 
 ### `datatype`
