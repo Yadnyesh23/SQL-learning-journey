@@ -54,6 +54,7 @@ Defines **what kind of data** is allowed in that column. MySQL will reject any v
 | `DATE`         | Date only (YYYY-MM-DD)          | `date_of_birth DATE` |
 | `TIMESTAMP`    | Date + time                     | `created_at TIMESTAMP` |
 | `ENUM(...)`    | One value from a fixed list     | `ENUM('Male', 'Female', 'Other')` |
+| `BOOLEAN`    | True or False     | `is_active` |
 
 ### `constraints`
 Rules applied to a column to **enforce data integrity**. Multiple constraints can be applied to a single column.
@@ -65,6 +66,7 @@ Rules applied to a column to **enforce data integrity**. Multiple constraints ca
 | `NOT NULL`          | The column must always have a value                       |
 | `UNIQUE`            | No two rows can have the same value in this column        |
 | `DEFAULT value`     | Uses a fallback value if none is provided                 |
+| `DEFAULT TIMESTAMP`     | Uses a fallback value(current time+date) as a timestamps                |
 
 ---
 
