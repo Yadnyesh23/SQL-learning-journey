@@ -8,6 +8,10 @@ CREATE DATABASE databasename;
 
 -- Switch to / activate a database
 USE databasename;
+
+-- Delete complete database
+
+DROP DATABASE databasename;
 ```
 
 ## Example
@@ -16,6 +20,8 @@ USE databasename;
 CREATE DATABASE company_db;
 
 USE company_db;
+
+DROP DATABASE company_db;
 ```
 
 ---
@@ -49,6 +55,13 @@ ERROR 1046: No database selected
 ```
 
 > **In MySQL Workbench:** You can also right-click the database name in the Schemas panel and select **Set as Default Schema** — this does the same thing as `USE`.
+
+### `DROP DATABASE`
+Tels MySQL to permanently delete an entire database and all the `tables`, `data`, and `structures` contained within it.
+
+```sql
+DROP DATABASE company_db;
+```
 
 ---
 
