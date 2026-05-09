@@ -9,12 +9,12 @@ Learn MySQL by building one complete database project from scratch.
 ---
 
 ## Phase 1: Plan the Database
-- [ ] Understand the project goal.
-- [ ] Identify all entities in the system.
-- [ ] Identify the relationships between entities.
-- [ ] Decide what data each entity should store.
-- [ ] Draw the ER diagram.
-- [ ] Review the ER diagram and make sure it makes sense.
+- [x] Understand the project goal.
+- [x] Identify all entities in the system.
+- [x] Identify the relationships between entities.
+- [x] Decide what data each entity should store.
+- [x] Draw the ER diagram.
+- [x] Review the ER diagram and make sure it makes sense.
 
 ## Phase 2: Design the Schema
 - [ ] Convert the ER diagram into a schema.
