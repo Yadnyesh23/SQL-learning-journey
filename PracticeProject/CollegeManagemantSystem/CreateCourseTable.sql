@@ -1,8 +1,0 @@
-CREATE TABLE courses(
-course_id INT AUTO_INCREMENT PRIMARY KEY,
-course_name VARCHAR(100) UNIQUE NOT NULL,
-duration INT NOT NULL,
-fees DECIMAL(10, 2) NOT NULL
-);
-
-SELECT * FROM courses;
