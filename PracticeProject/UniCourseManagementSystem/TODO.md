@@ -17,31 +17,29 @@ Learn MySQL by building one complete database project from scratch.
 - [x] Review the ER diagram and make sure it makes sense.
 
 ## Phase 2: Design the Schema
-- [ ] Convert the ER diagram into a schema.
-- [ ] Decide primary keys.
-- [ ] Decide foreign keys.
-- [ ] Decide which columns need NOT NULL.
-- [ ] Decide which columns need UNIQUE.
-- [ ] Decide which columns need DEFAULT.
-- [ ] Decide which columns need CHECK.
-- [ ] Normalize the tables if needed.
+- [x] Convert the ER diagram into a schema.
+- [x] Decide primary keys.
+- [x] Decide foreign keys.
+- [x] Decide which columns need NOT NULL.
+- [x] Decide which columns need UNIQUE.
+- [x] Decide which columns need DEFAULT.
+- [x] Decide which columns need CHECK.
+- [x] Normalize the tables if needed.
 
 ## Phase 3: Create the Database
-- [ ] Create the database in MySQL.
-- [ ] Select the database using `USE`.
-- [ ] Verify the database was created correctly.
+- [x] Create the database in MySQL.
+- [x] Select the database using `USE`.
+- [x] Verify the database was created correctly.
 
 ## Phase 4: Create Tables
-- [ ] Create the `departments` table.
-- [ ] Create the `students` table.
-- [ ] Create the `instructors` table.
-- [ ] Create the `courses` table.
-- [ ] Create the `enrollments` table.
-- [ ] Create the `grades` table.
-- [ ] Create the `payments` table.
-- [ ] Create the `attendance` table.
-- [ ] Add all constraints.
-- [ ] Check the table structure with `DESCRIBE`.
+- [x] Create the `departments` table.
+- [x] Create the `students` table.
+- [x] Create the `instructors` table.
+- [x] Create the `courses` table.
+- [x] Create the `enrollments` table.
+- [x] Create the `payments` table.
+- [x] Add all constraints.
+- [x] Check the table structure with `DESCRIBE`.
 
 ## Phase 5: Insert Data
 - [ ] Insert sample departments.
